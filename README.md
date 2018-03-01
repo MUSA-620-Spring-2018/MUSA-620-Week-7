@@ -25,7 +25,7 @@ If you are not successful setting up the standalone server, not to worry. You ca
 
 
 
-# Assignment <a id="assignment"></>
+# Assignment <a id="assignment"></a>
 
 Calculate the price per square foot of condominiums overlooking Rittenhouse Square by scraping the Philadelphia Property Database. Then present this information visually on a map.
 
