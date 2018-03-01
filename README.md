@@ -25,7 +25,7 @@ If you are not successful setting up the standalone server, not to worry. You ca
 
 
 
-# Assignment
+# Assignment <a id="assignment"></>
 
 Calculate the price per square foot of condominiums overlooking Rittenhouse Square by scraping the Philadelphia Property Database. Then present this information visually on a map.
 
@@ -50,6 +50,6 @@ If you are having problems getting the Selenium Standalone Server working, you c
 - A map showing each building's average price per square foot
 - The output data from your scraper (the value and sqare footage of each condo)
 - all R scripts used in scraping, analyzing, and visualizing the data
-- a written explanation of: the steps you took to create it, reasons for your design choices, and an explanation of what the map shows / what patterns you see.
+- a written explanation of: the steps you took to create it, any challenges you encountered along the way, and reasons for your design choices.
 
 
