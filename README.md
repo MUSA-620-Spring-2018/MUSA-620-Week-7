@@ -52,4 +52,7 @@ If you are having problems getting the Selenium Standalone Server working, you c
 - all R scripts used in scraping, analyzing, and visualizing the data
 - a written explanation of: the steps you took to create it, any challenges you encountered along the way, and reasons for your design choices.
 
+### Additional Comments
+
+Out of courtesy for the maintainers of the Philly Property Database and its other users, please do your best to avoid overloading their server. When you are ready for your scraper's final run, you should do so outside of normal working hours. And please remember to include at least a few seconds of pause between page loads, using the Sys.sleep() command.
 
