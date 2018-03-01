@@ -22,3 +22,34 @@ If you are not successful setting up the standalone server, not to worry. You ca
 3. Paste it into the webdriver.r script along with your Sauce Labs username.
 4. While running your scraper, you can watch the browser live from the Sauce Labs Dashboard page.
 
+
+
+
+# Assignment
+
+Calculate the price per square foot of condominiums overlooking Rittenhouse Square by scraping the Philadelphia Property Database. Then present this information visually on a map.
+
+This assignment is **required**. Please turn it in by email to myself (galkamaxd at gmail) and Evan (ecernea at sas dot upenn dot edu).
+
+**Due:** Wednesday, 14-March by 9am
+
+### Description
+
+To calculate the average price per square foot for these homes, you will need to scrape the [Philadelphia Property Database](http://property.phila.gov/).
+
+* This list of condos (address and unit #) are in the [condos-rittenhouse.csv](https://github.com/MUSA-620-Spring-2018/MUSA-620-Week-7/blob/master/condos-rittenhouse.csv) file. So as not to overload the Property Database server, please do not run the full dataset until you have confirmed your scraper is working and are ready for the final run. Instead, please use [condo-test-data.csv](https://github.com/MUSA-620-Spring-2018/MUSA-620-Week-7/blob/master/condo-test-data.csv) (contains only four records) for building and testing your scraper.
+* See the [scraper-template.r](https://github.com/MUSA-620-Spring-2018/MUSA-620-Week-7/blob/master/scraper-template.r) script for some code to get you started.
+* For the purposes of this assignment, please use the most recent Market Value as the price of the condo, as shown in the "VALUATION HISTORY" table. For the area of the condo, please use the field labeled "IMPROVEMENT AREA (SQFT)".
+* Once you have collected the property values, you should calculate the price per square foot for each of the 12 buildings.
+* Geocode the 12 buildings with ggmap (**geocode only the 12 building addresses, not each individual condo**) and present the price per square footage visually on a map using ggplot2.
+
+If you are having problems getting the Selenium Standalone Server working, you can find more [information here](https://cran.r-project.org/web/packages/RSelenium/vignettes/RSelenium-basics.html). We can also go through it in office hours. However, this project is not meant to be an exercise in setting up servers, so if you are finding it overwhelming to set up the standalone server, you should just use [Sauce Labs](https://saucelabs.com/), as we did in class. You can sign up for a [free Sauce Labs trial account here](https://saucelabs.com/signup/trial).
+
+### Deliverable
+
+- A map showing each building's average price per square foot
+- The output data from your scraper (the value and sqare footage of each condo)
+- all R scripts used in scraping, analyzing, and visualizing the data
+- a written explanation of: the steps you took to create it, reasons for your design choices, and an explanation of what the map shows / what patterns you see.
+
+
