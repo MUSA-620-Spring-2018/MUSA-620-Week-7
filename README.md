@@ -55,5 +55,12 @@ If you are having problems getting the Selenium Standalone Server working, you c
 
 ### Additional Comments
 
-Out of courtesy for the maintainers of the Philly Property Database and its other users, please do your best to avoid overloading their server. When you are ready for your scraper's final run, you should do so outside of normal working hours. And please remember to include at least a few seconds of pause between page loads, using the Sys.sleep() command.
+* Out of courtesy for the maintainers of the Philly Property Database and its other users, please do your best to avoid overloading their server. When you are ready for your scraper's final run, you should do so outside of normal working hours. And please remember to include at least a few seconds of pause between page loads, using the Sys.sleep() command.
 
+* Scraping is messy, and this assignment is no exception. If/when you run into problems, please do your best to improvise.
+
+* If your scraper fails midway through, you should store the results that you already have and pick up where you left off, rather than starting from scratch.
+
+* If you run into problems with specific addresses, please use your best judgment to come up with a solution and explain it in your writeup.
+
+* If you encounter a problems with the website not working (e.g. it's not returning results for addresses that you know are valid), please report the issue to me. 
