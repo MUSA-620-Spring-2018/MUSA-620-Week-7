@@ -53,14 +53,15 @@ If you are having problems getting the Selenium Standalone Server working, you c
 - all R scripts used in scraping, analyzing, and visualizing the data
 - a written explanation of: the steps you took to create it, any challenges you encountered along the way, and reasons for your design choices.
 
-### Additional Comments
+### Additional Comments <a id="comments"></a>
 
 * Out of courtesy for the maintainers of the Philly Property Database and its other users, please do your best to avoid overloading their server. When you are ready for your scraper's final run, you should do so outside of normal working hours. And please remember to include at least a few seconds of pause between page loads, using the Sys.sleep() command.
 
-* Scraping is messy, and this assignment is no exception. If/when you run into problems, please do your best to improvise.
+* An unfortunate reality of web scraping is that it is often messy. This assignment is no exception. If/when you run into problems, please do your best to improvise.
 
-* If your scraper fails midway through, you should store the results that you already have and pick up where you left off, rather than starting from scratch.
+* If your scraper fails midway through, do not start again from scratch. You should store the results that you already have and pick up where you left off, skipping the problematic address if need be.
+
+* If the scraper is regularly stopping on valid addresses, you may be hitting up against rate limits (too many requests in too short a time). You can either wait for a bit before resuming and/or slow your scraper down using Sys.sleep().
 
 * If you run into problems with specific addresses, please use your best judgment to come up with a solution and explain it in your writeup.
 
-* If you encounter a problems with the website not working (e.g. it's not returning results for addresses that you know are valid), please report the issue to me. 
