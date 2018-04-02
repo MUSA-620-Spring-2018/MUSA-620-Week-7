@@ -48,8 +48,8 @@ If you are having problems getting the Selenium Standalone Server working, you c
 
 ### Deliverable
 
-- A map showing each building's average price per square foot
-- The output data from your scraper (the value and sqare footage of each condo)
+- a map showing each building's average price per square foot
+- the output data from your scraper (the value and square footage of each condo)
 - all R scripts used in scraping, analyzing, and visualizing the data
 - a written explanation of: the steps you took to create it, any challenges you encountered along the way, and reasons for your design choices.
 
